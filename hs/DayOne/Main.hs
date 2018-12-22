@@ -4,6 +4,7 @@ main :: IO ()
 main = do
   putStrLn "Advent of Code Day 1.1"
   contents <- getContents
+  putStr "The adjusted frequency is: "
   print $ adjustFrequency contents
 
 read' :: String -> Int
